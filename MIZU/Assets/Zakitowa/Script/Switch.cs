@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Switch : MonoBehaviour
 {
-    public GameObject block; // ‘å‚«‚­‚µ‚½‚¢ƒuƒƒbƒNƒIƒuƒWƒFƒNƒg‚ğ‚±‚±‚ÉƒAƒTƒCƒ“‚µ‚Ü‚·
+    public GameObject block; // å¯¾è±¡ã®ãƒ–ãƒ­ãƒƒã‚¯ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ã“ã“ã«ã‚¢ã‚µã‚¤ãƒ³ã—ã¾ã™
     private bool isPressed = false;
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !isPressed)
         {
@@ -18,7 +18,7 @@ public class Switch : MonoBehaviour
     {
         if (block != null)
         {
-            block.transform.localScale *= 2; // ƒuƒƒbƒN‚ÌƒTƒCƒY‚ğ2”{‚É‚µ‚Ü‚·
+            block.transform.localScale *= 2; // ãƒ–ãƒ­ãƒƒã‚¯ã®ã‚µã‚¤ã‚ºã‚’2å€ã«ã—ã¾ã™
         }
     }
 }

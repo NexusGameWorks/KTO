@@ -3,10 +3,10 @@ using System.Collections;
 
 public class SwitchPlatform : MonoBehaviour
 {
-    public GameObject platform; // ‘å‚«‚­‚µ‚½‚¢‘«êƒIƒuƒWƒFƒNƒg‚ğ‚±‚±‚ÉƒAƒTƒCƒ“‚µ‚Ü‚·
+    public GameObject platform; // å¯¾è±¡ã®ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ã“ã“ã«ã‚¢ã‚µã‚¤ãƒ³ã—ã¾ã™
     private Vector3 originalScale;
-    public Vector3 enlargedScale = new Vector3(2, 2, 2); // ‘å‚«‚­‚µ‚½‚¢ƒTƒCƒY‚ğİ’è‚µ‚Ü‚·
-    public float shrinkDelay = 2.0f; // ‘«ê‚ªŒ³‚ÌƒTƒCƒY‚É–ß‚é‚Ü‚Å‚Ì’x‰„ŠÔ
+    public Vector3 enlargedScale = new Vector3(2, 2, 2); // æ‹¡å¤§å¾Œã®ã‚µã‚¤ã‚ºã‚’è¨­å®šã—ã¾ã™
+    public float shrinkDelay = 2.0f; // å…ƒã®ã‚µã‚¤ã‚ºã«æˆ»ã‚‹ã¾ã§ã®é…å»¶æ™‚é–“
 
     private Coroutine shrinkCoroutine;
 
@@ -18,7 +18,7 @@ public class SwitchPlatform : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -30,7 +30,7 @@ public class SwitchPlatform : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
