@@ -8,6 +8,8 @@ TagManager:
   - Arm
   - RightArm
   - LeftArm
+  - puddle
+  - Obstacle
   layers:
   - Default
   - TransparentFX
