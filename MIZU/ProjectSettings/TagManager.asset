@@ -9,7 +9,12 @@ TagManager:
   - RightArm
   - LeftArm
   - puddle
+<<<<<<< Updated upstream
   - Obstacle
+=======
+  - goal
+  - DeadZone
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

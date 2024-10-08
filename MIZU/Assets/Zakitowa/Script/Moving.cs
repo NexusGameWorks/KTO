@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class Moving : MonoBehaviour
 {
     public Transform pointA; // 移動する開始地点
     public Transform pointB; // 移動する終了地点
