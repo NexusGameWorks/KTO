@@ -22,20 +22,20 @@ public class KK_TestMove : MonoBehaviour
         float moveHorizontal = 0;
         float moveVertical = 0;
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.L))
         {
             moveHorizontal = moveSpeed * Time.deltaTime;
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.J))
         {
             moveHorizontal = -moveSpeed * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.I))
         {
             moveVertical = moveSpeed * Time.deltaTime;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.K))
         {
             moveVertical = -moveSpeed * Time.deltaTime;
         }
