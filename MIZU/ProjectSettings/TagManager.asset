@@ -3,18 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ground
-  - Arm
-  - RightArm
-  - LeftArm
-  - puddle
-<<<<<<< Updated upstream
-  - Obstacle
-=======
-  - goal
-  - DeadZone
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -22,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Ghost
-  - slime
-  - JointTmp
-  - Player
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
