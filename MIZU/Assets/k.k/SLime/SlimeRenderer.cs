@@ -20,6 +20,11 @@ public class SlimeRenderer : MonoBehaviour
 
     private void Update()
     {
+        // 子のSphereColliderをすべて取得
+        _colliders = GetComponentsInChildren<SphereCollider>();
+
+        // シェーダー側の _SphereCount を更新
+        material.SetInt("_SphereCount", _colliders.Length);
         // 子のSphereColliderの分だけ、_spheres に中心座標と半径を入れていく
         for (var i = 0; i < _colliders.Length; i++)
         {

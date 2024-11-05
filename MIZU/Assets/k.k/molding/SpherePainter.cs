@@ -8,6 +8,8 @@ public class SpherePainter : MonoBehaviour
     [SerializeField] private GameObject spherePrefab; // 生成するスフィアのPrefab
     [SerializeField] private Transform targetTransform; // スフィアを置く対象オブジェクトのTransform
     [SerializeField] private float sphereSpawnInterval = 0.1f; // スフィア生成間隔（インスペクターで設定可能）
+    [SerializeField] private Transform parentTransform; // 結合オブジェクトの親Transform
+
 
     private InputAction drawAction;
     private InputAction endAction;
@@ -82,6 +84,8 @@ public class SpherePainter : MonoBehaviour
 
         // 新しいメッシュオブジェクトを作成
         GameObject combinedMeshObject = new GameObject("CombinedSphere");
+        combinedMeshObject.transform.parent = parentTransform; // 親オブジェクトを設定
+
         MeshFilter meshFilter = combinedMeshObject.AddComponent<MeshFilter>();
         MeshRenderer meshRenderer = combinedMeshObject.AddComponent<MeshRenderer>();
 

@@ -84,7 +84,7 @@ public class Alpha_Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
-            Death();
+            //Death();
         }
     }
 
