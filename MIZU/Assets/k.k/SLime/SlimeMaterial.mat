@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SlimeMaterial
-  m_Shader: {fileID: 4800000, guid: 490abdf7a73961d4e96fe7f9c5a5ae06, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6d2fe987342fc5f4f919c913663ceb39, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

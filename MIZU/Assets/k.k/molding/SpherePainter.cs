@@ -75,6 +75,7 @@ public class SpherePainter : MonoBehaviour
     private void PlaceSphere()
     {
         GameObject sphere = Instantiate(spherePrefab, targetTransform.position, Quaternion.identity);
+        sphere.transform.parent = parentTransform;
         spheres.Add(sphere); // 生成したスフィアをリストに追加
     }
 
