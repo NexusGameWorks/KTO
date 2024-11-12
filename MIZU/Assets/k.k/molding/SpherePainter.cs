@@ -89,6 +89,8 @@ public class SpherePainter : MonoBehaviour
 
         MeshFilter meshFilter = combinedMeshObject.AddComponent<MeshFilter>();
         MeshRenderer meshRenderer = combinedMeshObject.AddComponent<MeshRenderer>();
+        MeshCollider collider = combinedMeshObject.AddComponent<MeshCollider>();
+        Rigidbody rb = combinedMeshObject.AddComponent<Rigidbody>();
 
         // スフィアのメッシュを結合する
         CombineInstance[] combine = new CombineInstance[spheres.Count];
