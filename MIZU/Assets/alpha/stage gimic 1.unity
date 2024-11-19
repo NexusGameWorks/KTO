@@ -3580,7 +3580,7 @@ MonoBehaviour:
   m_UpdateMethod: 1
   m_Targets:
   - target: {fileID: 1733174245}
-    weight: 1
+    weight: 2
     radius: 0
   - target: {fileID: 1314371166}
     weight: 1
@@ -3594,7 +3594,7 @@ Transform:
   m_GameObject: {fileID: 606485614}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.17, y: 2.8, z: 0}
+  m_LocalPosition: {x: -10.226666, y: 2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5779,7 +5779,7 @@ Transform:
   m_GameObject: {fileID: 1053681174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1e-45, z: 0, w: 1}
-  m_LocalPosition: {x: -11.17, y: 3.9547007, z: -10}
+  m_LocalPosition: {x: -10.226666, y: 3.9547007, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6349,7 +6349,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181771815}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -7745,7 +7745,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 52.35405
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -7772,7 +7772,7 @@ Transform:
   m_GameObject: {fileID: 1377936943}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1e-45, z: 0, w: 1}
-  m_LocalPosition: {x: -11.17, y: 3.9547007, z: -10}
+  m_LocalPosition: {x: -10.226666, y: 3.9547007, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11011,7 +11011,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058253527}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
