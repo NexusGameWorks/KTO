@@ -8,7 +8,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: drop
+<<<<<<< Updated upstream
     second: {fileID: -4125471728267972529, guid: 3d887d0af48a9f448a20b0788c5e3a10, type: 3}
+=======
+    second: {fileID: 2100000, guid: 980cbd3e92a1be34abb8bafc0f9206a2, type: 2}
+>>>>>>> Stashed changes
   materials:
     materialImportMode: 2
     materialName: 0

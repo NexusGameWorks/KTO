@@ -10,6 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: 224
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
@@ -19,6 +20,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
       propertyPath: m_LocalPosition.z
       value: -4.5
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
       propertyPath: m_LocalRotation.w
@@ -58,17 +70,25 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
       insertIndex: -1
+<<<<<<< Updated upstream
       addedObject: {fileID: -4535295448687273897}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3032962865294561470}
+=======
+      addedObject: {fileID: 1790947403961288474}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
 --- !u!1 &4799441894072772322 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd73c7b8690fdd946a3ed19de1a59509, type: 3}
   m_PrefabInstance: {fileID: 5645934108532595635}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!54 &-4535295448687273897
+=======
+--- !u!54 &1790947403961288474
+>>>>>>> Stashed changes
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,6 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
 --- !u!95 &3032962865294561470
 Animator:
   serializedVersion: 5
@@ -116,3 +137,5 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Stashed changes
