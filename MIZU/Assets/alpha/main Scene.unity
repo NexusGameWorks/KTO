@@ -40899,7 +40899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 4799441894072772322, guid: 5a6eadb123a94494792d160f19974326, type: 3}
   spawnPoint: {fileID: 1313831387}
-  spawnInterval: 3
+  spawnInterval: 1
   destroyHeight: -50
 --- !u!4 &1313831387
 Transform:
