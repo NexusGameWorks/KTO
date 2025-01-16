@@ -30513,6 +30513,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457237906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &459229256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2107763173}
+    m_Modifications:
+    - target: {fileID: 7275541753761531845, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_Name
+      value: yajirusi (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 686.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.8264685
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+--- !u!4 &459229257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
+  m_PrefabInstance: {fileID: 459229256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &460699151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 476644658302138665, guid: 315a90d66ad37374e99ccc8766aae046, type: 3}
@@ -40330,7 +40392,7 @@ MonoBehaviour:
   player: 1
   water: 0
   ice: 0
-  cloud: 1000
+  cloud: 750
   slime: 0
   _groundCheck: {fileID: 630528314}
 --- !u!4 &737157095 stripped
@@ -69401,11 +69463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 681.7
+      value: 674.9
       objectReference: {fileID: 0}
     - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.8
+      value: 44.3
       objectReference: {fileID: 0}
     - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -89106,7 +89168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.8
+      value: 33.3
       objectReference: {fileID: 0}
     - target: {fileID: 8051374013824032127, guid: 3ff861802ee3cc747b9a0f52607272c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -91099,7 +91161,7 @@ MonoBehaviour:
   player: 0
   water: 0
   ice: 0
-  cloud: 1000
+  cloud: 750
   slime: 0
   _groundCheck: {fileID: 187473929}
 --- !u!1001 &1784335226
@@ -105298,6 +105360,7 @@ Transform:
   - {fileID: 1861686944}
   - {fileID: 623936404}
   - {fileID: 1309970390}
+  - {fileID: 459229257}
   - {fileID: 1513478742}
   - {fileID: 2067651750}
   - {fileID: 1088038265}
@@ -107068,7 +107131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6158642147724029824, guid: 1a513978ffa025644913b52bf6737714, type: 3}
       propertyPath: fallSpeed
-      value: 30
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -107612,7 +107675,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1413822251913142161, guid: e5333d21786310242ae41eb26fb6afec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.7
+      value: -47.3
       objectReference: {fileID: 0}
     - target: {fileID: 1413822251913142161, guid: e5333d21786310242ae41eb26fb6afec, type: 3}
       propertyPath: m_LocalPosition.y
