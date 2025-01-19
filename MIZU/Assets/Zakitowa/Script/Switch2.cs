@@ -3,11 +3,10 @@ using System.Collections;
 
 public class SwitchPlatform : MonoBehaviour
 {
-    public GameObject platform; // ?????????????????????????
+    public GameObject platform; 
     private Vector3 originalScale;
-    public Vector3 enlargedScale = new Vector3(2, 2, 2); // ???????????????
-    public float shrinkDelay = 2.0f; // ??????????????????
-
+    public Vector3 enlargedScale = new Vector3(2, 2, 2); 
+    public float shrinkDelay = 2.0f; 
     private Coroutine shrinkCoroutine;
 
     void Start()
@@ -18,7 +17,7 @@ public class SwitchPlatform : MonoBehaviour
         }
     }
 
-    // 3D??OnTriggerEnter????
+    
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -31,7 +30,7 @@ public class SwitchPlatform : MonoBehaviour
         }
     }
 
-    // 3D??OnTriggerExit????
+    
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
